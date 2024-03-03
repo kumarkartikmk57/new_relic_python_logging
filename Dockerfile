@@ -5,7 +5,7 @@
 FROM python:3.8-slim
 
 # Set environment variables for New Relic
-ENV NEW_RELIC_LICENSE_KEY=cf78c4a85fde596c802f43481f9bf4fdFFFFNRAL
+ENV NEW_RELIC_LICENSE_KEY=####################
 ENV NEW_RELIC_APP_NAME=uat_log_tester
 
 # Install New Relic Python agent
